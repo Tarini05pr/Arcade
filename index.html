@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="author" content="Tarini Pabbareddy">
+  <title>Arcade</title>
+  <meta name="description" content="Arcade">
+  <meta name="keywords" content="Arcade, Games">
+  <link rel="stylesheet" href="css/style.css" type="text/css">
+</head>
+<body>
+  <header class="wrap">
+    <h1>Museum Game Arcade</h1>
+    <p>Choose a game. All gameplay happens in prompts/alerts.</p>
+  </header>
+
+  <main class="wrap">
+    <div id="buttons">
+      <button onclick="playBNH()">Bear • Ninja • Hunter</button>
+      
+      <button onclick="magicEightBall()">Consult the Oracle</button>
+      
+      <button onclick="numberGuess()">Number Guess</button>
+    </div>
+
+    
+    <section id="farewell" aria-live="polite"></section>
+  </main>
+
+  <footer class="wrap">
+    <small>Arcade 1 • All results show via alert; prompts control flow.</small>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
